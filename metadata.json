@@ -1,0 +1,6 @@
+{
+  "name": "Burger Craft",
+  "description": "Cardápio digital artesanal e delivery da Burger Craft. Hambúrgueres na brasa, combos, porções, bebidas e sobremesas com pedido direto pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

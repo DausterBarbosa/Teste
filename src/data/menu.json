@@ -1,0 +1,310 @@
+{
+  "store": {
+    "name": "Sabor da Serra",
+    "subtitle": "Pizzaria Artesanal · Delivery",
+    "logo": "/assets/aistudio/image_b6e35233.png",
+    "whatsapp": "5511999999999",
+    "deliveryFee": 6.00,
+    "deliveryTime": "35–50 min",
+    "pickupAddress": "Rua Augusta, 1420 · Consolação, São Paulo",
+    "openingHours": "Terça a Domingo, das 18h às 23h30",
+    "heroImage": "/src/assets/images/hero_pizzaria_craft_1795542422767.jpg"
+  },
+  "categories": [
+    { "id": "todos", "name": "Todos" },
+    { "id": "combos", "name": "Combos" },
+    { "id": "pizzas-salgadas", "name": "Pizzas Salgadas" },
+    { "id": "pizzas-doces", "name": "Pizzas Doces" },
+    { "id": "entradas", "name": "Entradas" },
+    { "id": "bebidas", "name": "Bebidas" },
+    { "id": "sobremesas", "name": "Sobremesas" }
+  ],
+  "products": [
+    {
+      "id": "combo-casal-serra",
+      "categoryId": "combos",
+      "name": "Combo Casal da Serra",
+      "description": "1 Pizza Média Salgada (6 fatias) à sua escolha + 1 Corniccione de Alecrim & Parmesão + 2 Refrigerantes Lata 350ml bem gelados.",
+      "price": 74.90,
+      "image": "/src/assets/images/combo_casal_serra_1795544631742.jpg",
+      "featured": true,
+      "allowHalfAndHalf": false,
+      "comboFlavors": [
+        "Margherita Clássica",
+        "Calabresa Artesanal",
+        "Quatro Queijos",
+        "Frango com Catupiry"
+      ],
+      "addons": [
+        { "id": "borda-catupiry", "name": "Borda recheada de Catupiry na pizza", "price": 10.00 },
+        { "id": "borda-cheddar", "name": "Borda recheada de Cheddar na pizza", "price": 10.00 },
+        { "id": "upgrade-pepperoni", "name": "Trocar sabor para Pepperoni & Mel", "price": 6.00 }
+      ]
+    },
+    {
+      "id": "combo-noite-familia",
+      "categoryId": "combos",
+      "name": "Combo Noite em Família",
+      "description": "1 Pizza Grande Salgada (8 fatias) + 1 Pizza Média Doce (6 fatias) + 2 Limonadas Rosas Artesanais 400ml.",
+      "price": 114.90,
+      "image": "/src/assets/images/combo_noite_familia_1795544631948.jpg",
+      "featured": true,
+      "allowHalfAndHalf": false,
+      "comboFlavors": [
+        "Calabresa Artesanal + Chocolate com Morango",
+        "Margherita Clássica + Chocolate com Morango",
+        "Quatro Queijos + Banana Caramelizada",
+        "Frango com Catupiry + Banana Caramelizada"
+      ],
+      "addons": [
+        { "id": "borda-catupiry-grande", "name": "Borda de Catupiry na Pizza Grande", "price": 10.00 },
+        { "id": "borda-chocolate-doce", "name": "Borda de Chocolate na Pizza Doce", "price": 11.00 },
+        { "id": "refri-extra", "name": "Adicionar 1 Refrigerante Lata 350ml", "price": 7.90 }
+      ]
+    },
+    {
+      "id": "combo-classico-entrada",
+      "categoryId": "combos",
+      "name": "Combo Clássico & Entrada",
+      "description": "1 Pizza Grande Salgada (8 fatias) assada no forno a lenha + 1 Pão de Calabresa Recheado + 1 Refrigerante Lata 350ml.",
+      "price": 89.90,
+      "image": "/src/assets/images/combo_classico_entrada_1795544632337.jpg",
+      "featured": false,
+      "allowHalfAndHalf": false,
+      "comboFlavors": [
+        "Quatro Queijos",
+        "Margherita Clássica",
+        "Calabresa Artesanal",
+        "Frango com Catupiry"
+      ],
+      "addons": [
+        { "id": "borda-catupiry", "name": "Borda recheada de Catupiry na pizza", "price": 10.00 },
+        { "id": "borda-cheddar", "name": "Borda recheada de Cheddar na pizza", "price": 10.00 },
+        { "id": "potinho-catupiry", "name": "Potinho de Catupiry quente extra", "price": 6.50 }
+      ]
+    },
+    {
+      "id": "margherita-classica",
+      "categoryId": "pizzas-salgadas",
+      "name": "Margherita Clássica",
+      "description": "Molho de tomate pelati italiano, mussarela de búfala fresca, rodelas de tomate italiano, folhas de manjericão e fio de azeite extravirgem.",
+      "price": 38.90,
+      "image": "/src/assets/images/pizza_margherita_classica_1795542423744.jpg",
+      "featured": true,
+      "allowHalfAndHalf": true,
+      "sizes": [
+        { "id": "brotinho", "name": "Brotinho", "slices": 4, "price": 38.90 },
+        { "id": "media", "name": "Média", "slices": 6, "price": 49.90 },
+        { "id": "grande", "name": "Grande", "slices": 8, "price": 59.90 },
+        { "id": "familia", "name": "Família", "slices": 12, "price": 74.90 }
+      ],
+      "addons": [
+        { "id": "borda-catupiry", "name": "Borda recheada de Catupiry", "price": 10.00 },
+        { "id": "borda-cheddar", "name": "Borda recheada de Cheddar", "price": 10.00 },
+        { "id": "mussarela-bufala-extra", "name": "Mussarela de búfala extra", "price": 9.00 },
+        { "id": "tomate-seco", "name": "Tomate seco artesanal", "price": 7.50 },
+        { "id": "azeite-trufado", "name": "Finalização com azeite trufado", "price": 6.00 }
+      ]
+    },
+    {
+      "id": "calabresa-artesanal",
+      "categoryId": "pizzas-salgadas",
+      "name": "Calabresa Artesanal",
+      "description": "Molho de tomate pelati, mussarela derretida, calabresa curada fatiada fina, anéis de cebola roxa marinada e orégano fresco.",
+      "price": 39.90,
+      "image": "/src/assets/images/pizza_calabresa_artesanal_1795542424399.jpg",
+      "featured": true,
+      "allowHalfAndHalf": true,
+      "sizes": [
+        { "id": "brotinho", "name": "Brotinho", "slices": 4, "price": 39.90 },
+        { "id": "media", "name": "Média", "slices": 6, "price": 51.90 },
+        { "id": "grande", "name": "Grande", "slices": 8, "price": 61.90 },
+        { "id": "familia", "name": "Família", "slices": 12, "price": 76.90 }
+      ],
+      "addons": [
+        { "id": "borda-catupiry", "name": "Borda recheada de Catupiry", "price": 10.00 },
+        { "id": "borda-cheddar", "name": "Borda recheada de Cheddar", "price": 10.00 },
+        { "id": "catupiry-cobertura", "name": "Catupiry original por cima", "price": 8.50 },
+        { "id": "bacon-crocante", "name": "Bacon crocante", "price": 7.50 },
+        { "id": "azeitonas-pretas", "name": "Azeitonas pretas azapa", "price": 4.50 }
+      ]
+    },
+    {
+      "id": "quatro-queijos",
+      "categoryId": "pizzas-salgadas",
+      "name": "Quatro Queijos",
+      "description": "Molho de tomate italiano, mussarela, provolone defumado, gorgonzola suave e Catupiry original gratinado no forno a lenha.",
+      "price": 42.90,
+      "image": "/src/assets/images/pizza_quatro_queijos_1795542424927.jpg",
+      "featured": true,
+      "allowHalfAndHalf": true,
+      "sizes": [
+        { "id": "brotinho", "name": "Brotinho", "slices": 4, "price": 42.90 },
+        { "id": "media", "name": "Média", "slices": 6, "price": 54.90 },
+        { "id": "grande", "name": "Grande", "slices": 8, "price": 65.90 },
+        { "id": "familia", "name": "Família", "slices": 12, "price": 81.90 }
+      ],
+      "addons": [
+        { "id": "borda-catupiry", "name": "Borda recheada de Catupiry", "price": 10.00 },
+        { "id": "borda-cheddar", "name": "Borda recheada de Cheddar", "price": 10.00 },
+        { "id": "parmesao-gratinado", "name": "Parmesão capa preta gratinado", "price": 7.00 },
+        { "id": "bacon-crocante", "name": "Bacon crocante", "price": 7.50 },
+        { "id": "mel-trufado", "name": "Toque de mel com nozes", "price": 6.50 }
+      ]
+    },
+    {
+      "id": "frango-catupiry",
+      "categoryId": "pizzas-salgadas",
+      "name": "Frango com Catupiry",
+      "description": "Peito de frango desfiado temperado com ervas frescas, mussarela, cobertura generosa de Catupiry original e milho doce selecionado.",
+      "price": 41.90,
+      "image": "/src/assets/images/pizza_frango_catupiry_1795542425031.jpg",
+      "featured": false,
+      "allowHalfAndHalf": true,
+      "sizes": [
+        { "id": "brotinho", "name": "Brotinho", "slices": 4, "price": 41.90 },
+        { "id": "media", "name": "Média", "slices": 6, "price": 53.90 },
+        { "id": "grande", "name": "Grande", "slices": 8, "price": 63.90 },
+        { "id": "familia", "name": "Família", "slices": 12, "price": 79.90 }
+      ],
+      "addons": [
+        { "id": "borda-catupiry", "name": "Borda recheada de Catupiry", "price": 10.00 },
+        { "id": "borda-cheddar", "name": "Borda recheada de Cheddar", "price": 10.00 },
+        { "id": "bacon-crocante", "name": "Bacon crocante", "price": 7.50 },
+        { "id": "batata-palha", "name": "Batata palha extra crocante", "price": 5.00 }
+      ]
+    },
+    {
+      "id": "pepperoni-mel",
+      "categoryId": "pizzas-salgadas",
+      "name": "Pepperoni & Mel Picante",
+      "description": "Molho de tomate pelati, mussarela, fatias de pepperoni levemente apimentado, pimenta calabresa e fio final de mel artesanal.",
+      "price": 44.90,
+      "image": "/src/assets/images/pizza_pepperoni_mel_1795542426281.jpg",
+      "featured": true,
+      "allowHalfAndHalf": true,
+      "sizes": [
+        { "id": "brotinho", "name": "Brotinho", "slices": 4, "price": 44.90 },
+        { "id": "media", "name": "Média", "slices": 6, "price": 56.90 },
+        { "id": "grande", "name": "Grande", "slices": 8, "price": 68.90 },
+        { "id": "familia", "name": "Família", "slices": 12, "price": 84.90 }
+      ],
+      "addons": [
+        { "id": "borda-catupiry", "name": "Borda recheada de Catupiry", "price": 10.00 },
+        { "id": "borda-cheddar", "name": "Borda recheada de Cheddar", "price": 10.00 },
+        { "id": "pepperoni-extra", "name": "Porção extra de pepperoni", "price": 11.00 },
+        { "id": "mussarela-extra", "name": "Mussarela extra", "price": 8.00 }
+      ]
+    },
+    {
+      "id": "chocolate-morango",
+      "categoryId": "pizzas-doces",
+      "name": "Chocolate com Morango",
+      "description": "Massa artesanal fina assada na pedra, ganache cremosa de chocolate meio amargo 54%, morangos frescos fatiados e raspas de chocolate.",
+      "price": 36.90,
+      "image": "/src/assets/images/pizza_chocolate_morango_1795542425878.jpg",
+      "featured": true,
+      "allowHalfAndHalf": true,
+      "sizes": [
+        { "id": "brotinho", "name": "Brotinho", "slices": 4, "price": 36.90 },
+        { "id": "media", "name": "Média", "slices": 6, "price": 46.90 },
+        { "id": "grande", "name": "Grande", "slices": 8, "price": 56.90 },
+        { "id": "familia", "name": "Família", "slices": 12, "price": 69.90 }
+      ],
+      "addons": [
+        { "id": "borda-chocolate", "name": "Borda recheada de chocolate", "price": 11.00 },
+        { "id": "morango-extra", "name": "Morangos frescos extras", "price": 7.00 },
+        { "id": "leite-condensado", "name": "Fio de leite condensado", "price": 4.00 }
+      ]
+    },
+    {
+      "id": "banana-caramelizada",
+      "categoryId": "pizzas-doces",
+      "name": "Banana Caramelizada",
+      "description": "Mussarela suave, rodelas de banana nanica caramelizadas no açúcar mascavo, doce de leite argentino e canela em pó.",
+      "price": 35.90,
+      "image": "/src/assets/images/pizza_banana_caramelizada_1795542426865.jpg",
+      "featured": false,
+      "allowHalfAndHalf": true,
+      "sizes": [
+        { "id": "brotinho", "name": "Brotinho", "slices": 4, "price": 35.90 },
+        { "id": "media", "name": "Média", "slices": 6, "price": 45.90 },
+        { "id": "grande", "name": "Grande", "slices": 8, "price": 54.90 },
+        { "id": "familia", "name": "Família", "slices": 12, "price": 67.90 }
+      ],
+      "addons": [
+        { "id": "borda-chocolate", "name": "Borda recheada de chocolate", "price": 11.00 },
+        { "id": "doce-leite-extra", "name": "Doce de leite extra", "price": 6.00 },
+        { "id": "sorvete-creme", "name": "Pote de sorvete de creme (150ml)", "price": 9.00 }
+      ]
+    },
+    {
+      "id": "pao-calabresa",
+      "categoryId": "entradas",
+      "name": "Pão de Calabresa Recheado",
+      "description": "Massa de fermentação natural assada no forno a lenha, recheada com calabresa artesanal, mussarela derretida e manteiga de ervas.",
+      "price": 28.90,
+      "image": "/src/assets/images/entrada_pao_calabresa_1795542427456.jpg",
+      "featured": false,
+      "allowHalfAndHalf": false,
+      "addons": [
+        { "id": "potinho-catupiry", "name": "Potinho de Catupiry quente", "price": 6.50 },
+        { "id": "azeite-ervas", "name": "Potinho de azeite temperado", "price": 3.50 }
+      ]
+    },
+    {
+      "id": "corniccione-alecrim",
+      "categoryId": "entradas",
+      "name": "Corniccione Alecrim & Parmesão",
+      "description": "Tiras crocantes da nossa massa de longa fermentação assadas na pedra com azeite extravirgem, alecrim fresco, flor de sal e parmesão.",
+      "price": 23.90,
+      "image": "/src/assets/images/entrada_corniccione_alecrim_1795542427266.jpg",
+      "featured": false,
+      "allowHalfAndHalf": false,
+      "addons": [
+        { "id": "molho-pelati", "name": "Potinho de molho pelati temperado", "price": 5.00 },
+        { "id": "pesto-manjericao", "name": "Potinho de pesto de manjericão", "price": 6.50 }
+      ]
+    },
+    {
+      "id": "limonada-rosa",
+      "categoryId": "bebidas",
+      "name": "Limonada Rosa Artesanal",
+      "description": "Preparada na hora com suco fresco de limão tahiti, infusão natural de hibisco, hortelã e água com gás bem gelada (400ml).",
+      "price": 12.90,
+      "image": "/src/assets/images/bebida_limonada_rosa_1795542027569.jpg",
+      "featured": false,
+      "allowHalfAndHalf": false,
+      "addons": [
+        { "id": "sem-acucar", "name": "Preparo sem açúcar", "price": 0.00 },
+        { "id": "gelo-extra", "name": "Caprichar no gelo e hortelã", "price": 0.00 }
+      ]
+    },
+    {
+      "id": "refrigerante-lata",
+      "categoryId": "bebidas",
+      "name": "Refrigerante Lata 350ml",
+      "description": "Coca-Cola, Coca-Cola Zero ou Guaraná Antarctica servido trincando. Informe sua preferência nas observações do item.",
+      "price": 7.90,
+      "image": "/src/assets/images/bebida_refrigerante_lata_1795542126215.jpg",
+      "featured": false,
+      "allowHalfAndHalf": false,
+      "addons": [
+        { "id": "copo-gelo-limao", "name": "Enviar copo com gelo e limão", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "tiramisu-casa",
+      "categoryId": "sobremesas",
+      "name": "Tiramisù da Casa",
+      "description": "Receita clássica italiana com biscoito champagne embebido em café espresso, creme leve de mascarpone e cacau 100% polvilhado na hora.",
+      "price": 24.90,
+      "image": "/src/assets/images/sobremesa_tiramisu_casa_1795542428040.jpg",
+      "featured": false,
+      "allowHalfAndHalf": false,
+      "addons": [
+        { "id": "cacau-extra", "name": "Calda extra de chocolate meio amargo", "price": 4.50 }
+      ]
+    }
+  ]
+}
